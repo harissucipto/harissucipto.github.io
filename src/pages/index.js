@@ -1,9 +1,9 @@
 import React from "react"
-import { navigate, Link } from "gatsby"
+import { Link } from "gatsby"
 import SEO from "../components/seo"
 import HeaderBar from "../components/HeaderBar"
 import FooterBar from "../components/FooterBar"
-import "..components/layout.css"
+import "./layout.css"
 
 const IndexPage = () => (
   <div>
@@ -21,7 +21,7 @@ const IndexPage = () => (
       }}
     >
       <h2 style={{ textAlign: "center", marginBottom: "2em" }}>
-        Pilih Chapter
+        Pilih Chapter :
       </h2>
       <h2>About</h2>
       <p>

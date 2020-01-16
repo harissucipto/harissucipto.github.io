@@ -1,6 +1,13 @@
 import React from "react"
 import Saya from "../components/saya"
 
+const kontakSaya = [
+  { name: "Github", link: "https://github.com/harissucipto" },
+  { name: "Email", link: "mailto:harisssucipto@gmail.com" },
+  { name: "Linkedin", link: "https://www.linkedin.com/in/harissucipto/" },
+  { name: "Instagram", link: "https://www.instagram.com/suciptoharis/" },
+]
+
 const background = {
   backgroundColor: "#fff",
   backgroundImage: "\nlinear-gradient(#eee .1em, transparent .1em)",
@@ -51,10 +58,11 @@ const FooterBar = () => {
           <i>Connect with me :</i>
           <br />
           <ul>
-            <li>
-              <a href="https://github.com/harissucipto">Github</a>,
-            </li>
-            <li>Email: harisssucipto@gmail.com</li>
+            {kontakSaya.map(item => (
+              <li key={item.name} style={{ margin: 0 }}>
+                <a href={item.link}>{item.name}</a>
+              </li>
+            ))}
           </ul>
         </div>
       </div>

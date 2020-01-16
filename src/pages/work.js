@@ -42,7 +42,7 @@ const Work = () => {
             <b>Teknologi: </b> HTML, CSS, JS, NodeJS
           </li>
           <li>
-            <b>Database: </b> Prisma Grphql, MongoDB, PostgreSQL, Firebase.
+            <b>Database: </b> Prisma GraphQL, MongoDB, PostgreSQL, Firebase.
           </li>
           <li>
             <b>Javascript Framework: </b> React, React Native, Next, Express

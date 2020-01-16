@@ -1,9 +1,15 @@
 import React from "react"
 import Saya from "../components/saya"
 
+const background = {
+  backgroundColor: "#fff",
+  backgroundImage: "\nlinear-gradient(#eee .1em, transparent .1em)",
+  backgroundSize: "100% 1.2em",
+}
+
 const FooterBar = () => {
   return (
-    <footer style={{ borderTop: "2px solid black" }}>
+    <footer style={{ borderTop: "2px solid black", ...background }}>
       <div
         style={{
           maxWidth: "1000px",
@@ -13,6 +19,7 @@ const FooterBar = () => {
           justifyContent: "space-between",
           alignItems: "center",
           marginTop: "30px",
+          padding: "0px 20px",
         }}
       >
         <div style={{ maxWidth: "400px" }}>

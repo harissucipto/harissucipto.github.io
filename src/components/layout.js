@@ -26,11 +26,7 @@ const Layout = ({ children }) => {
   `)
 
   return (
-    <div
-      style={{
-        minHeight: "100vh",
-      }}
-    >
+    <div>
       <HeaderBar />
       <div
         style={{
@@ -40,7 +36,7 @@ const Layout = ({ children }) => {
           paddingTop: 0,
         }}
       >
-        <main style={{ minHeight: "100%" }}>{children}</main>
+        <main style={{ minHeight: "70vh" }}>{children}</main>
       </div>
       <FooterBar />
     </div>

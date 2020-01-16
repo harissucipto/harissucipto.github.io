@@ -2,6 +2,12 @@ import React from "react"
 import NavigasiMenu from "./NavigasiMenu"
 import { navigate } from "gatsby"
 
+const background = {
+  backgroundColor: "#fff",
+  backgroundImage: "\nlinear-gradient(#eee .1em, transparent .1em)",
+  backgroundSize: "100% 1.2em",
+}
+
 const HeaderBar = () => {
   return (
     <div
@@ -10,6 +16,7 @@ const HeaderBar = () => {
         justifyContent: "center",
         marginBottom: "1.2rem",
         paddingBottom: "20px",
+        ...background,
       }}
     >
       <header

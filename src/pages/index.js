@@ -3,7 +3,7 @@ import { navigate, Link } from "gatsby"
 import SEO from "../components/seo"
 import HeaderBar from "../components/HeaderBar"
 import FooterBar from "../components/FooterBar"
-import "./layout.css"
+import "..components/layout.css"
 
 const IndexPage = () => (
   <div>

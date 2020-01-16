@@ -31,7 +31,7 @@ const HeaderBar = () => {
           <h1 style={{ cursor: "pointer" }} onClick={() => navigate("/")}>
             Haris Sucipto
           </h1>
-          <p>Ceritanya saya di dunia koding </p>
+          <p>Ceritanya saya di dunia dan koding </p>
         </div>
         <NavigasiMenu />
       </header>

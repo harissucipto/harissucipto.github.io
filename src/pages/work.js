@@ -3,6 +3,19 @@ import Layout from "../components/layout"
 import SEO from "../components/seo"
 import resume from "../files/resume.pdf"
 
+const projekKlien = [
+  {
+    id: "01",
+    nama: "Sistem Informasi Kelulusan Mahasiswa",
+    deskripsi: "Projek Kali ini main dengan Algoritma FP Growth",
+  },
+  {
+    id: "02",
+    nama: "Sistem Informasi Kelulusan Mahasiswa",
+    deskripsi: "Projek Kali ini main dengan Algoritma FP Growth",
+  },
+]
+
 const Work = () => {
   return (
     <div>
@@ -46,15 +59,9 @@ const Work = () => {
         </p>
 
         <ul>
-          <li>
-            <p>Aplikasi A</p>
-
-            <div></div>
-          </li>
-          <li>
-            <p>Ini</p>
-            <div></div>
-          </li>
+          {projekKlien.map(item => (
+            <li key={item.id}>{item.nama}</li>
+          ))}
         </ul>
       </Layout>
     </div>

@@ -1,5 +1,6 @@
 import React from "react"
 import NavigasiMenu from "./NavigasiMenu"
+import { navigate } from "gatsby"
 
 const HeaderBar = () => {
   return (
@@ -20,8 +21,10 @@ const HeaderBar = () => {
         }}
       >
         <div style={{ minWidth: "500px", margin: "20px 0px 0px 20px" }}>
-          <h1>Haris Sucipto</h1>
-          <p>Ceritanya pengalaman jadi programmer </p>
+          <h1 style={{ cursor: "pointer" }} onClick={() => navigate("/")}>
+            Haris Sucipto
+          </h1>
+          <p>Ceritanya saya di dunia koding </p>
         </div>
         <NavigasiMenu />
       </header>

@@ -41,10 +41,8 @@ const Work = () => {
 
         <h2>Projek Klient yang pernah kamu kerjakan?</h2>
         <p>
-          Bisa liat di list dibawah ini deksprisi projek yang bisa saya
-          tampilkan (beberapa projek tidak saya lampirkan terkait privasi dari
-          klient){" "}
-          <b>Untuk Detail Projeknya silahkan klik pada nama projek tersebut.</b>
+          list dibawah ini merupakan projek yang pernah saya kerjakan{" "}
+          <i> Detail Projeknya silahkan klik pada nama projek tersebut.</i>
         </p>
 
         <ul>

@@ -20,7 +20,7 @@ const About = () => {
             lain
           </p>
 
-          <h2>Pernah belajar diamana saja ?</h2>
+          <h2>Pernah belajar dimana saja ?</h2>
           <p>
             berikut list pembelajaran yang pernah saya ikuti sampai ketahap
             dapat sertifkat:{" "}

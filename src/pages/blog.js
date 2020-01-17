@@ -6,7 +6,13 @@ const Blog = () => {
   return (
     <div>
       <SEO title="Blog" />
-      <Layout>Blog</Layout>
+      <Layout>
+        <h2>Blog</h2>
+        <p>
+          Blog saya posting di{" "}
+          <a href="https://medium.com/@harissucipto">Medium</a>
+        </p>
+      </Layout>
     </div>
   )
 }

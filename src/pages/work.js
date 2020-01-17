@@ -125,8 +125,8 @@ const Work = () => {
         <p>list dibawah ini merupakan projek yang pernah saya kerjakan </p>
 
         <ul>
-          {projekKlien.map(item => (
-            <li key={item.id}>
+          {projekKlien.map((item, key) => (
+            <li key={key}>
               <a href={item.link}>{item.nama}</a>
             </li>
           ))}

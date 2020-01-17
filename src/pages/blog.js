@@ -8,10 +8,26 @@ const Blog = () => {
       <SEO title="Blog" />
       <Layout>
         <h2>Blog</h2>
-        <p>
-          Blog saya posting di{" "}
-          <a href="https://medium.com/@harissucipto">Medium</a>
-        </p>
+        <p>Di bawah ini merupakan list blog saya: </p>
+        <ul>
+          <li>
+            {" "}
+            <a href="https://medium.com/@harissucipto">Medium Publikasi</a>{" "}
+            (Sekarang Disini)
+          </li>
+          <li>
+            <a href="http://suciptoharis.blogspot.com/">
+              http://suciptoharis.blogspot.com/
+            </a>{" "}
+            (Hiatus)
+          </li>
+          <li>
+            <a href="http://7skystudio.blogspot.com/">
+              http://7skystudio.blogspot.com/
+            </a>{" "}
+            (Hiatus)
+          </li>
+        </ul>
       </Layout>
     </div>
   )

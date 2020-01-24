@@ -28,7 +28,7 @@ const About = () => {
           <ul>
             <li>
               <b>2015 – 2019</b> Universitas, Riau, Sarjana Komputer Program
-              Studi Sistem Informasi (IPK 3.73, Dengan Pujian){" "}
+              Studi Sistem Informasi (IPK 3.75, Dengan Pujian){" "}
             </li>
             <li>
               <b>2017</b> Udemy Course The Full Javascript & ES6 Tutorial
